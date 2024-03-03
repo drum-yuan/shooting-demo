@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Realtime-Session" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Realtime-Session" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O2" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Linker>
+			<Add option="-lwebsockets -lpthread" />
+		</Linker>
+		<Unit filename="ClientConnection.cpp" />
+		<Unit filename="ClientConnection.h" />
+		<Unit filename="Json.cpp" />
+		<Unit filename="Json.h" />
+		<Unit filename="Protocol.h" />
+		<Unit filename="Session.cpp" />
+		<Unit filename="Session.h" />
+		<Unit filename="SocketServer.cpp" />
+		<Unit filename="SocketServer.h" />
+		<Unit filename="Utils.cpp" />
+		<Unit filename="Utils.h" />
+		<Unit filename="deps/libwebsockets/libwebsockets.h" />
+		<Unit filename="deps/libwebsockets/lws_config.h" />
+		<Unit filename="deps/libwebsockets/lws_config_private.h" />
+		<Unit filename="deps/libwebsockets/private-libwebsockets.h" />
+		<Unit filename="deps/proto/autojsoncxx/array_types.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/autojsoncxx.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/base.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/boost_types.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/dom.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/error.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/from_json.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/map_types.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/nullable_types.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/to_json.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/tuple_types.hpp" />
+		<Unit filename="deps/proto/autojsoncxx/utility.hpp" />
+		<Unit filename="deps/proto/proto.hpp" />
+		<Unit filename="deps/proto/rapidjson/allocators.h" />
+		<Unit filename="deps/proto/rapidjson/document.h" />
+		<Unit filename="deps/proto/rapidjson/encodedstream.h" />
+		<Unit filename="deps/proto/rapidjson/encodings.h" />
+		<Unit filename="deps/proto/rapidjson/error/en.h" />
+		<Unit filename="deps/proto/rapidjson/error/error.h" />
+		<Unit filename="deps/proto/rapidjson/filereadstream.h" />
+		<Unit filename="deps/proto/rapidjson/filestream.h" />
+		<Unit filename="deps/proto/rapidjson/filewritestream.h" />
+		<Unit filename="deps/proto/rapidjson/internal/biginteger.h" />
+		<Unit filename="deps/proto/rapidjson/internal/diyfp.h" />
+		<Unit filename="deps/proto/rapidjson/internal/dtoa.h" />
+		<Unit filename="deps/proto/rapidjson/internal/ieee754.h" />
+		<Unit filename="deps/proto/rapidjson/internal/itoa.h" />
+		<Unit filename="deps/proto/rapidjson/internal/meta.h" />
+		<Unit filename="deps/proto/rapidjson/internal/pow10.h" />
+		<Unit filename="deps/proto/rapidjson/internal/stack.h" />
+		<Unit filename="deps/proto/rapidjson/internal/strfunc.h" />
+		<Unit filename="deps/proto/rapidjson/internal/strtod.h" />
+		<Unit filename="deps/proto/rapidjson/memorybuffer.h" />
+		<Unit filename="deps/proto/rapidjson/memorystream.h" />
+		<Unit filename="deps/proto/rapidjson/msinttypes/inttypes.h" />
+		<Unit filename="deps/proto/rapidjson/msinttypes/stdint.h" />
+		<Unit filename="deps/proto/rapidjson/prettywriter.h" />
+		<Unit filename="deps/proto/rapidjson/rapidjson.h" />
+		<Unit filename="deps/proto/rapidjson/reader.h" />
+		<Unit filename="deps/proto/rapidjson/stringbuffer.h" />
+		<Unit filename="deps/proto/rapidjson/writer.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

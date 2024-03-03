@@ -1,0 +1,33 @@
+[
+{
+    "name": "VideoAck_C2S",
+    "namespace": "MCUProtocol",
+    "members":
+    [
+        ["unsigned int", "sequence", {"required": false}]
+    ] 
+},
+
+{
+    "name": "RequestKeyFrame",
+    "namespace": "MCUProtocol",
+    "members":
+    [
+        ["bool", "resetMcuBuf", {"required": false}],
+        ["bool", "resetSequence", {"required": false}]
+    ] 
+},
+
+{
+    "name": "HeartbeatInfo",
+    "namespace": "MCUProtocol",
+    "members":
+    [
+        ["unsigned int", "UserNum", {"required": true}],
+        ["std::vector<std::string>", "UserList", {"required": true}],
+        ["std::string", "Publisher", {"required":true}],
+		["std::string", "Controller", {"required":true}]
+    ]
+}
+]
+

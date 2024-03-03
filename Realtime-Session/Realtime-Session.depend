@@ -1,0 +1,158 @@
+# depslib dependency file v1.0
+1615042759 source:/home/drum/Realtime-Session/ClientConnection.cpp
+	"ClientConnection.h"
+
+1615368335 /home/drum/Realtime-Session/ClientConnection.h
+	"Session.h"
+
+1615168389 /home/drum/Realtime-Session/Session.h
+	"Utils.h"
+	"Protocol.h"
+	<vector>
+	<map>
+
+1615367851 /home/drum/Realtime-Session/Utils.h
+	<memory>
+	<fstream>
+	<string>
+	"libwebsockets.h"
+
+1600160002 /home/drum/Realtime-Session/deps/libwebsockets/libwebsockets.h
+	<cstddef>
+	<cstdarg>
+	"mbed-drivers/mbed.h"
+	"sal-iface-eth/EthernetInterface.h"
+	"sockets/TCPListener.h"
+	"sal-stack-lwip/lwipv4_init.h"
+	<stdarg.h>
+	"lws_config.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stddef.h>
+	<basetsd.h>
+	<fcntl.h>
+	<unistd.h>
+	<netinet/in.h>
+	<poll.h>
+	<netdb.h>
+	<unistd.h>
+	<ev.h>
+	<uv.h>
+	<sys/time.h>
+	<unistd.h>
+	<cyassl/openssl/ssl.h>
+	<cyassl/error-ssl.h>
+	<wolfssl/openssl/ssl.h>
+	<wolfssl/error-ssl.h>
+	<polarssl/ssl.h>
+	<mbedtls/ssl.h>
+	<openssl/ssl.h>
+	<openssl/err.h>
+	<stddef.h>
+
+1600159959 /home/drum/Realtime-Session/deps/libwebsockets/lws_config.h
+
+1615368320 /home/drum/Realtime-Session/Protocol.h
+
+1600149720 source:/home/drum/Realtime-Session/Json.cpp
+	"Json.h"
+	<json/assertions.h>
+	<json/reader.h>
+	<json/value.h>
+	"json_tool.h"
+	<utility>
+	<cstdio>
+	<cassert>
+	<cstring>
+	<istream>
+	<sstream>
+	<memory>
+	<set>
+	<limits>
+	<json/assertions.h>
+	<json/value.h>
+	<json/writer.h>
+	<math.h>
+	<sstream>
+	<utility>
+	<cstring>
+	<cassert>
+	<cpptl/conststring.h>
+	<cstddef>
+	<algorithm>
+	"json_valueiterator.inl"
+	<json/writer.h>
+	"json_tool.h"
+	<iomanip>
+	<memory>
+	<sstream>
+	<utility>
+	<set>
+	<cassert>
+	<cstring>
+	<cstdio>
+	<float.h>
+	<ieeefp.h>
+	<math.h>
+	<math.h>
+	<cmath>
+	<float.h>
+
+1600149720 /home/drum/Realtime-Session/Json.h
+	<stddef.h>
+	<string>
+	<cpptl/config.h>
+	"version.h"
+	"allocator.h"
+	"config.h"
+	"forwards.h"
+	"forwards.h"
+	<string>
+	<vector>
+	<exception>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+	"features.h"
+	"value.h"
+	<deque>
+	<iosfwd>
+	<stack>
+	<string>
+	<istream>
+	"value.h"
+	<vector>
+	<string>
+	<ostream>
+	<stdlib.h>
+	<sstream>
+	"config.h"
+
+1614843746 source:/home/drum/Realtime-Session/main.cpp
+	"Utils.h"
+	"Session.h"
+	<unistd.h>
+
+1615043086 source:/home/drum/Realtime-Session/Session.cpp
+	"Session.h"
+	"SocketServer.h"
+	"ClientConnection.h"
+	"Json.h"
+	<signal.h>
+
+1600149721 /home/drum/Realtime-Session/SocketServer.h
+	"Utils.h"
+	"Session.h"
+	<thread>
+
+1600149721 source:/home/drum/Realtime-Session/Utils.cpp
+	"Utils.h"
+	"Protocol.h"
+	<string.h>
+
+1615040130 source:/home/drum/Realtime-Session/SocketServer.cpp
+	"SocketServer.h"
+	"Protocol.h"
+	"Json.h"
+	<string.h>
+
